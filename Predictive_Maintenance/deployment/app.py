@@ -60,4 +60,4 @@ if st.button("Predict"):
         st.success(comment)
 
     st.write(f"**Predicted probability (Engine Condition = 1 / Faulty):** {prediction_proba:.4f}")
-    st.write(f"**Engine Condition :** {prediction} (**{condition_label}**)")
+    st.write(f"**Engine Condition:** {prediction} (**{condition_label}**)")
